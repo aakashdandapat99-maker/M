@@ -11,7 +11,7 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="VILLAINAss1",
+            name="DarkOpAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -72,8 +72,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("iamvillain77")
-                await self.one.join_chat("oldskoolgc")
+                await self.two.join_chat("a4x_DarkOp")
+                await self.one.join_chat("a4x_DarkOp")
             except:
                 pass
             assistants.append(2)
